@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* padding: 0 2em; */
+  margin: 0;
+}
+
+.header {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* border: 2px solid; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-img {
+  object-fit: contain;
+}
+
+.top-things {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 2px solid; */
+  width: 100%;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  margin-right: 7em;
+}
+
+.top-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 3em 0 7em;
+}
+
+.top-two button,
+.top-left button,
+.bottom-middle button {
+  width: 9em;
+  height: 3em;
+  background-color: rgb(42, 207, 207);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: bolder;
+  margin-top: 5px;
+  padding: 0.2em;
+}
+
+.top-middle {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5em;
+}
+
+.top-left {
+  text-align: left;
+  width: 50%;
+  padding-top: 5em;
+  padding-left: 15px;
+  /* font-weight: bolder; */
+}
+
+.top-left h1 {
+  font-size: 40px;
+}
+
+.top-left p {
+  font-size: 20px;
+}
+
+.top-left button {
+  width: 12em;
+}
+
+.top-middle-img img {
+  width: 100%;
+  height: 100vh;
+}
+
+.form-container {
+  margin-top: 30px;
+  padding: 3em;
+  /* border: 2px solid; */
+  border-radius: 5px;
+  background-image: url(https://react-url-shortening-api-pink.vercel.app/static/media/bg-shorten-desktop.0d9742f4.svg);
+  background-repeat: no-repeat;
+  background-color: rgb(59, 48, 84);
+  height: 9em;
+}
+
+.form-container p {
+  color: rgb(218, 127, 127);
+  font-weight: bolder;
+}
+
+form input {
+  width: 85%;
+  height: 3em;
+  border: 2px solid rgb(218, 127, 127);
+  border-radius: 5px;
+}
+
+form button {
+  height: 3em;
+  width: 7em;
+  margin-left: 5px;
+  color: white;
+  background-color: rgb(42, 207, 207);
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.middle {
+  padding: 3em 0;
+  text-align: center;
+  background-color: rgb(197, 197, 197);
+  width: 100%;
+}
+
+.middle h2 {
+  color: rgb(59, 48, 84);
+  font-size: 40px;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(197, 197, 197);
+}
+
+.card-img {
+  position: absolute;
+  z-index: 2;
+  top: -50px;
+  left: 10px;
+  background: rgb(59, 48, 84);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.card {
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  position: relative;
+  height: 200px;
+  padding-top: 3em;
+  background-color: white;
+  width: 30vw;
+  margin-bottom: 50px;
+}
+
+.bottom-middle {
+  text-align: center;
+  height: 50vh;
+  /* border: 2px solid; */
+  padding: 2em 0 1em 0;
+  background-image: url(https://react-url-shortening-api-pink.vercel.app/static/media/bg-boost-desktop.772154c9.svg);
+  background-color: rgb(59, 48, 84);
+}
+
+.bottom-middle h2 {
+  font-size: 30px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: rgb(32, 32, 32);
+}
+
+.bottom li {
+  list-style: none;
+  padding: 0.2em;
+}
+
+.list-four {
+  display: flex;
+  flex-direction: row;
+}
